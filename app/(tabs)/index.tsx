@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 export default function HomeScreen() {
 
   useEffect(() => {
-    const ws = new WebSocket('ws://localhost:8081');
+    const ws = new WebSocket('ws://dasrado.com:8080');
 
     ws.onopen = () => {
       console.log('WebSocket connected');
